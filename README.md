@@ -14,7 +14,9 @@ Project Purpose:
     We'll start this project from a provided job application form page. It uses Bootstrap for some simple styling. We will be handling a few different events (see below) and performing various actions when they occur. One of these actions will be to send the form data to a server. This is where we will want to separate out our code into two modules: one to handle user interface (UI) events, and one to handle the data sending and receiving. In the future we may have many more different modules for different purposes."
 
 Critical Path:
-  1.  Write two js files containing two IIFEs:  Validate IIFE encapsulation of two simple eventhandler functions, creating a namespace, then exposing these functions to each other and to the browser without error.  produce log messages
+  <!-- 1.  Write two js files containing two IIFEs:  Validate IIFE encapsulation of two simple eventhandler functions, creating a namespace, then exposing these functions to each other and to the browser without error.  produce log messages -->
+
+  1.  start writing your JS by simply creating one event handler and logging out a message. For example, when the reset button is clicked, say "hello" in the console
 
   2.  complete the first eventhandler required for the assignment, and validate.
 
