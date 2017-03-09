@@ -48,10 +48,8 @@
   });
 
   window.jsEventHandlers.postResultsFn = function postResultsFn(code) {
+    let resultsSel = document.querySelector('#results');
     if (code > 199 && code < 300) {
-
-      let resultsSel = document.querySelector('#results');
-
       // set the results element to display: block
       resultsSel.style.display = 'block';
       // add "success message" inside the results element
